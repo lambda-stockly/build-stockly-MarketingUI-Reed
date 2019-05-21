@@ -386,6 +386,17 @@ header .navbar .navtab button {
 .blue-block .middle-content .middle-text {
   text-align: center;
 }
+.blue-block .middle-content .middle-icon {
+  padding-top: 20px;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.blue-block .middle-content .middle-icon a {
+  text-decoration: none;
+  color: white;
+}
 .lightGrey-block {
   background-color: #f9f9f9;
   padding-top: 30px;
