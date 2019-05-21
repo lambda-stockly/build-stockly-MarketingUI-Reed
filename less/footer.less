@@ -2,12 +2,20 @@
 
 .footer {
   .cyan-block {
-    // width: 100%;
+    height: 130px;
     background-color: @backgroundCyan;
+    display: flex;
+    align-content: center;
     .footer-top {
       .flex(space-between);
       .width();
       //   background-color: skyblue;
+      .bottom-button {
+        display: flex;
+        button {
+          margin-left: 3em;
+        }
+      }
     }
   }
   .bottomNavy-block {
@@ -18,6 +26,18 @@
       .flex(space-between);
       color: @white;
       //   background-color: skyblue;
+      height: 200px;
+      .bottom-link {
+        display: flex;
+        .flex(space-between);
+        ul {
+          padding-left: 5em;
+          text-align: center;
+          li {
+            padding-bottom: 10px;
+          }
+        }
+      }
     }
   }
 }

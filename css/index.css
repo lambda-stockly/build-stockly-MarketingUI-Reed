@@ -193,6 +193,9 @@ img {
   box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
   border: none;
 }
+.sumNav {
+  color: #5ae5dd;
+}
 header {
   border-bottom: 1px solid #0d122b;
   padding-bottom: 20px;
@@ -209,11 +212,7 @@ header .navbar {
 }
 header .navbar .logo-nav {
   display: flex;
-  align-items: center;
-}
-header .navbar .logo-nav h2 {
-  display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 header .navbar .navtab {
   display: flex;
@@ -228,7 +227,10 @@ header .navbar .navtab button {
   margin-left: 3em;
 }
 .footer .cyan-block {
+  height: 130px;
   background-color: #e0fcf9;
+  display: flex;
+  align-content: center;
 }
 .footer .cyan-block .footer-top {
   display: flex;
@@ -237,6 +239,12 @@ header .navbar .navtab button {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+}
+.footer .cyan-block .footer-top .bottom-button {
+  display: flex;
+}
+.footer .cyan-block .footer-top .bottom-button button {
+  margin-left: 3em;
 }
 .footer .bottomNavy-block {
   width: 100%;
@@ -250,6 +258,19 @@ header .navbar .navtab button {
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
+  height: 200px;
+}
+.footer .bottomNavy-block .footer-bottom .bottom-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .bottomNavy-block .footer-bottom .bottom-link ul {
+  padding-left: 5em;
+  text-align: center;
+}
+.footer .bottomNavy-block .footer-bottom .bottom-link ul li {
+  padding-bottom: 10px;
 }
 .white-block {
   padding-bottom: 20px;
@@ -284,9 +305,12 @@ header .navbar .navtab button {
 }
 .white-block .top-content .top-img-main {
   width: 48%;
+  box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
 }
 .blue-block {
   background-color: #0d122b;
+  height: 600px;
+  padding-top: 30px;
 }
 .blue-block .middle-content {
   color: #ffffff;
@@ -299,9 +323,34 @@ header .navbar .navtab button {
 }
 .lightGrey-block {
   background-color: #f9f9f9;
+  padding-top: 30px;
 }
 .lightGrey-block .bottom-content {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
+}
+.lightGrey-block .bottom-content .bottom-text {
+  padding-bottom: 20px;
+}
+.lightGrey-block .bottom-content .bottom-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.lightGrey-block .bottom-content .bottom-grid .blurb {
+  background-color: #ffffff;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-radius: 4px;
+  height: 220px;
+  width: 290px;
+  align-self: auto;
+  box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
 }
