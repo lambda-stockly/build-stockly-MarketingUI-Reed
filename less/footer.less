@@ -16,6 +16,10 @@
           margin-left: 3em;
         }
       }
+      @media @mobile {
+        .mobile();
+        text-align: center;
+      }
     }
   }
   .bottomNavy-block {
@@ -37,6 +41,14 @@
             padding-bottom: 10px;
           }
         }
+        @media @mobile {
+          ul {
+            display: none;
+          }
+        }
+      }
+      @media @mobile {
+        .mobile();
       }
     }
   }

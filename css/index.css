@@ -214,6 +214,15 @@ header .navbar .logo-nav {
   display: flex;
   align-items: baseline;
 }
+@media (max-width: 500px) {
+  header .navbar .logo-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 header .navbar .navtab {
   display: flex;
   align-items: center;
@@ -225,6 +234,12 @@ header .navbar .navtab a {
 }
 header .navbar .navtab button {
   margin-left: 3em;
+}
+@media (max-width: 500px) {
+  header .navbar .navtab a,
+  header .navbar .navtab button {
+    display: none;
+  }
 }
 .footer .cyan-block {
   height: 130px;
@@ -245,6 +260,16 @@ header .navbar .navtab button {
 }
 .footer .cyan-block .footer-top .bottom-button button {
   margin-left: 3em;
+}
+@media (max-width: 500px) {
+  .footer .cyan-block .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
 }
 .footer .bottomNavy-block {
   width: 100%;
@@ -271,6 +296,20 @@ header .navbar .navtab button {
 }
 .footer .bottomNavy-block .footer-bottom .bottom-link ul li {
   padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .footer .bottomNavy-block .footer-bottom .bottom-link ul {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .footer .bottomNavy-block .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 .white-block {
   padding-bottom: 20px;
@@ -323,6 +362,14 @@ header .navbar .navtab button {
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-align: center;
+  }
+  .white-block .top-content .top-img-grid {
+    align-content: center;
+    justify-content: center;
+  }
+  .white-block .top-content .top-img-main {
+    display: none;
   }
 }
 .blue-block {
