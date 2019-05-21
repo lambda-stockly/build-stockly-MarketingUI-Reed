@@ -3,17 +3,14 @@
 header {
   border-bottom: 1px solid @secondaryColor;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   .navbar {
     .width();
-    // background-color: skyblue;
     padding-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    .flex(space-between);
     .logo-nav {
       display: flex;
       align-items: center;
-      //   justify-content: flex-start;
       h2 {
         display: flex;
         align-items: center;
@@ -22,16 +19,13 @@ header {
     .navtab {
       display: flex;
       align-items: center;
-
-      //   justify-content: flex-end;
-      //   justify-content: space-evenly;
       a {
-        padding-left: 36px;
+        padding-left: 5em;
         text-decoration: none;
         color: @secondaryColor;
       }
       button {
-        margin-left: 36px;
+        margin-left: 3em;
       }
     }
   }

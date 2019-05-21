@@ -1,0 +1,50 @@
+//home-page
+
+.white-block {
+  padding-bottom: 20px;
+  .top-content {
+    .width();
+    .flex(space-between);
+    .top-text {
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      h1 {
+        padding-bottom: 20px;
+      }
+      .top-img-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+          padding-right: 9em;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+      }
+    }
+    .top-img-main {
+      width: 48%;
+    }
+  }
+}
+
+.blue-block {
+  background-color: @secondaryColor;
+  .middle-content {
+    color: @white;
+    .width();
+    .middle-text {
+      text-align: center;
+    }
+  }
+}
+
+.lightGrey-block {
+  background-color: @lightGrey;
+  .bottom-content {
+    .width();
+  }
+}
