@@ -193,6 +193,10 @@ img {
   box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
   border: none;
 }
+header {
+  border-bottom: 1px solid #0d122b;
+  padding-bottom: 20px;
+}
 header .navbar {
   max-width: 1140px;
   width: 100%;
