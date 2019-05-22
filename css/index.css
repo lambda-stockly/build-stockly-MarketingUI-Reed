@@ -195,6 +195,7 @@ img {
 }
 .sumNav {
   color: #5ae5dd;
+  font-size: 3.8rem;
 }
 header {
   border-bottom: 1px solid #0d122b;
@@ -234,7 +235,8 @@ header .navbar .navtab {
   align-items: center;
 }
 header .navbar .navtab a {
-  padding-left: 5em;
+  padding-left: 3em;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #0d122b;
 }
@@ -338,15 +340,16 @@ header .navbar .navtab button {
 }
 .white-block .top-content .top-text .top-img-grid {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
-.white-block .top-content .top-text .top-img-grid img {
-  padding-right: 9em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.white-block .top-content .top-text .top-img-grid p {
+  align-content: baseline;
+  font-style: italic;
+}
+.white-block .top-content .top-text .top-img-grid .class {
+  padding-left: 3rem;
+  color: red;
 }
 @media (max-width: 500px) {
   .white-block .top-content .top-text {

@@ -14,14 +14,22 @@
       }
       .top-img-grid {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
+        p {
+          align-content: baseline;
+          font-style: italic;
+        }
+        .class {
+          padding-left: 3rem;
+          color: red;
+        }
         img {
-          padding-right: 9em;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
+          // padding-right: 9em;
+          // display: flex;
+          // flex-direction: row;
+          // flex-wrap: wrap;
+          // justify-content: space-evenly;
         }
       }
       @media @mobile {
