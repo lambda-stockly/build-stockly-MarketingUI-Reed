@@ -31,7 +31,7 @@ class AboutFeatureLink {
     console.log(aboutBlurbs);
     aboutBlurbs.forEach(blurb => (blurb.style.display = "none"));
     this.link.classList.add("active-about-blurb");
-    this.aboutBlurbs.forEach(blurb => blurb.selectBlurb());
+    this.blurbs.forEach(blurb => blurb.selectBlurb());
     // this.link.classList.add("active");
     // this.featureItem.select();
   }
