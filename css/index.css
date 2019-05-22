@@ -223,6 +223,12 @@ header .navbar .logo-nav {
     width: 100%;
   }
 }
+header .navbar .logo-nav span .logoLine {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 header .navbar .navtab {
   display: flex;
   align-items: center;
@@ -387,7 +393,9 @@ header .navbar .navtab button {
 }
 .blue-block .middle-content .middle-icon {
   padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 1.6rem;
+  border-bottom: 1px solid #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -395,6 +403,9 @@ header .navbar .navtab button {
 .blue-block .middle-content .middle-icon a {
   text-decoration: none;
   color: white;
+}
+.blue-block .middle-content .middle-icon a a .active {
+  border-bottom: 5px solid #5ae5dd;
 }
 .lightGrey-block {
   background-color: #f9f9f9;

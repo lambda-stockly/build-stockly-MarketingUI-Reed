@@ -60,11 +60,17 @@
     }
     .middle-icon {
       padding-top: 20px;
+      padding-bottom: 20px;
       font-size: 1.6rem;
+      border-bottom: 1px solid @white;
       .flex(space-around);
       a {
         text-decoration: none;
         color: white;
+        // border-bottom: 5px solid @primaryColor;
+        a .active {
+          border-bottom: 5px solid @primaryColor;
+        }
       }
     }
   }
