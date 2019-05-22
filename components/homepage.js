@@ -3,10 +3,10 @@
 class FeatureLink {
   constructor(link) {
     this.link = link;
-    console.log("line 6" + this.link);
+    // console.log("line 6" + this.link);
 
     this.data = this.link.dataset.tab;
-
+    console.log(this.data);
     this.featureElement = document.querySelector(
       `.feature-content[data-tab='${this.data}']`
     );
@@ -37,7 +37,7 @@ class FeatureItem {
 
 // ################################################################
 const links = document.querySelectorAll(".feature");
-console.log("line 40" + links);
+console.log(links);
 
 links.forEach(link => {
   new FeatureLink(link);
