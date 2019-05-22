@@ -1,4 +1,4 @@
-//homepage.js
+//aboutpage.js
 // ################################################################
 class FeatureLink {
   constructor(link) {
