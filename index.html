@@ -12,6 +12,7 @@
     <link href="css/index.css" rel="stylesheet" />
   </head>
   <body>
+    <script src="components/homepage.js"></script>
     <div class="container">
       <header>
         <nav class="navbar">
@@ -63,13 +64,30 @@
               voluptate natus commodi!
             </p>
           </div>
-          <div class="middle-icon">
-            <a class="active" href="#">Feature 1</a>
-            <a href="#">Feature 2</a>
-            <a href="#">Feature 3</a>
-            <a href="#">Feature 4</a>
+          <div class="features middle-icon">
+            <a class="feature active" data-tab="1" href="#">Feature 1</a>
+            <a class="feature" data-tab="2" href="#">Feature 2</a>
+            <a class="feature" data-tab="3" href="#">Feature 3</a>
+            <a class="feature" data-tab="4" href="#">Feature 4</a>
           </div>
-          <div class="middle-carousel"></div>
+          <div class="middle-carousel">
+            <div class="feature-content active-item" data-tab="1" ><img src="img/svgid13.svg" alt=""></div>
+            <div class="feature-content" data-tab="2" ><img src="img/svgid15.svg" alt=""></div>
+            <div class="feature-content" data-tab="3" ><img src="img/svgid23.svg" alt=""></div>
+            <div class="feature-content" data-tab="4"><img  src="img/svgid20.svg" alt=""></div>
+          </div>
+          <!-- <div class="features middle-icon">
+            <div class="feature active" data-tab="1">Feature 1</div>
+            <div class="feature" data-tab="2">Feature 2</div>
+            <div class="feature" data-tab="3">Feature 3</div>
+            <div class="feature" data-tab="4">Feature 4</div>
+          </div>
+          <div class="middle-carousel">
+            <img class="feature-content active-item" data-tab="1" src="" alt="">
+            <img class="feature-content" data-tab="2" src="img/undraw_data_trends_b0wg.svg" alt="">
+            <img class="feature-content" data-tab="3" src="img/svgid23.svg" alt="">
+            <img class="feature-content" data-tab="4" src="img/svgid20.svg" alt="">
+          </div> -->
         </div>
         <!-- end of middle-content div -->
       </section>

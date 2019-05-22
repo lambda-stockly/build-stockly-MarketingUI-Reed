@@ -64,6 +64,7 @@
       font-size: 1.6rem;
       border-bottom: 1px solid @white;
       .flex(space-around);
+
       a {
         text-decoration: none;
         color: white;
@@ -71,6 +72,14 @@
       }
       .active {
         border-bottom: 5px solid @primaryColor;
+      }
+    }
+    .middle-carousel {
+      .feature-content {
+        display: none;
+      }
+      .active-item {
+        display: block;
       }
     }
   }
