@@ -346,10 +346,21 @@ header .navbar .navtab button {
 .white-block .top-content .top-text .top-img-grid p {
   align-content: baseline;
   font-style: italic;
+  color: gray;
 }
-.white-block .top-content .top-text .top-img-grid .class {
-  padding-left: 3rem;
-  color: red;
+.white-block .top-content .top-text .top-img-grid .one {
+  display: flex;
+  align-items: center;
+}
+.white-block .top-content .top-text .top-img-grid .two {
+  padding-left: 14rem;
+  display: flex;
+  align-items: center;
+}
+.white-block .top-content .top-text .top-img-grid .three {
+  padding-left: 26rem;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .white-block .top-content .top-text {
@@ -427,6 +438,7 @@ header .navbar .navtab button {
   width: 100%;
   border: 3px solid #5ae5dd;
   margin: 20px;
+  background-color: #f9f9f9;
 }
 .lightGrey-block {
   background-color: #f9f9f9;
@@ -454,7 +466,7 @@ header .navbar .navtab button {
   align-items: center;
   align-content: space-between;
   margin-bottom: 30px;
-  padding-top: 20px;
+  padding: 20px 1.5em 0 1.5em;
   border-radius: 4px;
   height: 220px;
   width: 290px;
