@@ -14,12 +14,25 @@
         display: flex;
         button {
           margin-left: 3em;
+          @media @tablet {
+            margin-left: 1em;
+          }
+          @media @mobile {
+            margin-left: 5%;
+          }
         }
+      }
+      @media @tablet {
+        .mobile();
+        text-align: center;
       }
       @media @mobile {
         .mobile();
         text-align: center;
       }
+    }
+    @media @mobile {
+      height: 160px;
     }
   }
   .bottomNavy-block {
@@ -41,11 +54,19 @@
             padding-bottom: 10px;
           }
         }
+        @media @tablet {
+          ul {
+            display: none;
+          }
+        }
         @media @mobile {
           ul {
             display: none;
           }
         }
+      }
+      @media @tablet {
+        .mobile();
       }
       @media @mobile {
         .mobile();

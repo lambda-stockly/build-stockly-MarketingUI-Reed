@@ -11,7 +11,9 @@ header {
     .logo-nav {
       display: flex;
       align-items: baseline;
-
+      @media @tablet {
+        .mobile();
+      }
       @media @mobile {
         .mobile();
       }
@@ -33,6 +35,12 @@ header {
       }
       button {
         margin-left: 3em;
+      }
+      @media @tablet {
+        a,
+        button {
+          display: none;
+        }
       }
       @media @mobile {
         a,

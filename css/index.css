@@ -215,6 +215,15 @@ header .navbar .logo-nav {
   display: flex;
   align-items: baseline;
 }
+@media (max-width: 800px) {
+  header .navbar .logo-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 @media (max-width: 500px) {
   header .navbar .logo-nav {
     display: flex;
@@ -243,6 +252,12 @@ header .navbar .navtab a {
 header .navbar .navtab button {
   margin-left: 3em;
 }
+@media (max-width: 800px) {
+  header .navbar .navtab a,
+  header .navbar .navtab button {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   header .navbar .navtab a,
   header .navbar .navtab button {
@@ -269,6 +284,26 @@ header .navbar .navtab button {
 .footer .cyan-block .footer-top .bottom-button button {
   margin-left: 3em;
 }
+@media (max-width: 800px) {
+  .footer .cyan-block .footer-top .bottom-button button {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 500px) {
+  .footer .cyan-block .footer-top .bottom-button button {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .footer .cyan-block .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   .footer .cyan-block .footer-top {
     display: flex;
@@ -277,6 +312,11 @@ header .navbar .navtab button {
     justify-content: center;
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .footer .cyan-block {
+    height: 160px;
   }
 }
 .footer .bottomNavy-block {
@@ -305,9 +345,23 @@ header .navbar .navtab button {
 .footer .bottomNavy-block .footer-bottom .bottom-link ul li {
   padding-bottom: 10px;
 }
+@media (max-width: 800px) {
+  .footer .bottomNavy-block .footer-bottom .bottom-link ul {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .footer .bottomNavy-block .footer-bottom .bottom-link ul {
     display: none;
+  }
+}
+@media (max-width: 800px) {
+  .footer .bottomNavy-block .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -353,14 +407,24 @@ header .navbar .navtab button {
   align-items: center;
 }
 .white-block .top-content .top-text .top-img-grid .two {
-  padding-left: 14rem;
+  padding-left: 20%;
   display: flex;
   align-items: center;
 }
 .white-block .top-content .top-text .top-img-grid .three {
-  padding-left: 26rem;
+  padding-left: 40%;
   display: flex;
   align-items: center;
+  width: 380px;
+}
+@media (max-width: 800px) {
+  .white-block .top-content .top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .white-block .top-content .top-text {
@@ -373,6 +437,23 @@ header .navbar .navtab button {
 }
 .white-block .top-content .top-img-main {
   width: 48%;
+}
+@media (max-width: 800px) {
+  .white-block .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .white-block .top-content .top-img-grid {
+    align-content: center;
+    justify-content: center;
+  }
+  .white-block .top-content .top-img-main {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .white-block .top-content {
@@ -393,7 +474,7 @@ header .navbar .navtab button {
 }
 .blue-block {
   background-color: #0d122b;
-  height: 600px;
+  height: 650px;
   padding-top: 30px;
 }
 .blue-block .middle-content {
@@ -438,7 +519,23 @@ header .navbar .navtab button {
   width: 100%;
   border: 3px solid #5ae5dd;
   margin: 20px;
-  background-color: #f9f9f9;
+  background-color: #5ae5dd;
+}
+.blue-block .middle-content .middle-card .active-item img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
+}
+@media (max-width: 500px) {
+  .blue-block .middle-content .middle-card .active-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+  }
 }
 .lightGrey-block {
   background-color: #f9f9f9;
@@ -511,6 +608,9 @@ header .navbar .navtab button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
 }
 .blue-block-about .about-middle-content .about-middle-blurb {
   display: flex;
