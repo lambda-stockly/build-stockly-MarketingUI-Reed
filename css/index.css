@@ -599,6 +599,24 @@ header .navbar .navtab button {
   text-align: center;
   box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
 }
+@media (max-width: 800px) {
+  .white-block-about .about-top-content .about-top-grid .about-top-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .white-block-about .about-top-content .about-top-grid .about-top-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 .blue-block-about {
   background-color: #0d122b;
   height: 200px;
@@ -627,6 +645,30 @@ header .navbar .navtab button {
 }
 .blue-block-about .about-middle-content .about-middle-blurb h3 {
   padding-top: 10px;
+}
+@media (max-width: 800px) {
+  .blue-block-about .about-middle-content .about-middle-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .blue-block-about .about-middle-content .about-middle-blurb {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .blue-block-about {
+    height: 300px;
+  }
 }
 .lightGrey-block-about {
   padding-top: 30px;
@@ -658,6 +700,27 @@ header .navbar .navtab button {
 .lightGrey-block-about .about-bottom-content .about-tab .active-about {
   border-bottom: 5px solid #5ae5dd;
 }
+@media (max-width: 800px) {
+  .lightGrey-block-about .about-bottom-content .about-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .lightGrey-block-about .about-bottom-content .about-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .lightGrey-block-about .about-bottom-content .about-tab .feature-about {
+    padding-top: 10px;
+  }
+}
 .lightGrey-block-about .about-bottom-content .about-bottom-grid {
   display: flex;
   align-items: center;
@@ -679,4 +742,40 @@ header .navbar .navtab button {
   width: 280px;
   align-self: auto;
   box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
+}
+@media (max-width: 800px) {
+  .lightGrey-block-about .about-bottom-content .about-bottom-grid .about-bottom-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .lightGrey-block-about .about-bottom-content .about-bottom-grid .about-bottom-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .lightGrey-block-about .about-bottom-content .about-bottom-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .lightGrey-block-about .about-bottom-content .about-bottom-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }

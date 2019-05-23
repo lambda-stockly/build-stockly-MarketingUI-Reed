@@ -23,6 +23,12 @@
         box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2),
           0px 3px 4px rgba(151, 162, 185, 0.12),
           0px 2px 4px rgba(151, 162, 185, 0.14);
+        @media @tablet {
+          .mobile();
+        }
+        @media @mobile {
+          .mobile();
+        }
       }
     }
   }
@@ -50,7 +56,17 @@
       h3 {
         padding-top: 10px;
       }
+      @media @tablet {
+        .mobile();
+      }
+      @media @mobile {
+        height: 200px;
+        .mobile();
+      }
     }
+  }
+  @media @mobile {
+    height: 300px;
   }
 }
 
@@ -79,6 +95,15 @@
       .active-about {
         border-bottom: 5px solid @primaryColor;
       }
+      @media @tablet {
+        .mobile();
+      }
+      @media @mobile {
+        .mobile();
+        .feature-about {
+          padding-top: 10px;
+        }
+      }
     }
     .about-bottom-grid {
       .flex(space-around);
@@ -101,6 +126,18 @@
         box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2),
           0px 3px 4px rgba(151, 162, 185, 0.12),
           0px 2px 4px rgba(151, 162, 185, 0.14);
+        @media @tablet {
+          .mobile();
+        }
+        @media @mobile {
+          .mobile();
+        }
+      }
+      @media @tablet {
+        .mobile();
+      }
+      @media @mobile {
+        .mobile();
       }
     }
   }
