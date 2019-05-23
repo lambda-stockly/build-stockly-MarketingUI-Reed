@@ -410,11 +410,23 @@ header .navbar .navtab button {
 .blue-block .middle-content .middle-icon .active {
   border-bottom: 5px solid #5ae5dd;
 }
-.blue-block .middle-content .middle-carousel .feature-content {
+.blue-block .middle-content .middle-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-block .middle-content .middle-card .feature-content {
   display: none;
 }
-.blue-block .middle-content .middle-carousel .active-item {
-  display: block;
+.blue-block .middle-content .middle-card .active-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 330px;
+  max-width: 800px;
+  width: 100%;
+  border: 3px solid #5ae5dd;
+  margin: 20px;
 }
 .lightGrey-block {
   background-color: #f9f9f9;

@@ -82,12 +82,22 @@
         border-bottom: 5px solid @primaryColor;
       }
     }
-    .middle-carousel {
+    .middle-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .feature-content {
         display: none;
       }
       .active-item {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 330px;
+        max-width: 800px;
+        width: 100%;
+        border: 3px solid @primaryColor;
+        margin: 20px;
       }
     }
   }
