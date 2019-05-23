@@ -249,19 +249,47 @@ header .navbar .navtab a {
   text-decoration: none;
   color: #0d122b;
 }
+@media (max-width: 500px) {
+  header .navbar .navtab a {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #0d122b;
+  }
+}
 header .navbar .navtab button {
   margin-left: 3em;
 }
-@media (max-width: 800px) {
-  header .navbar .navtab a,
+@media (max-width: 500px) {
   header .navbar .navtab button {
-    display: none;
+    width: 100%;
+    margin: 0;
   }
 }
 @media (max-width: 500px) {
-  header .navbar .navtab a,
-  header .navbar .navtab button {
-    display: none;
+  header .navbar .navtab a {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  header .navbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  header .navbar .navtab {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 .footer .cyan-block {
@@ -596,8 +624,14 @@ header .navbar .navtab button {
   border-radius: 4px;
   height: 200px;
   width: 25%;
+  padding: 10px;
   text-align: center;
   box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2), 0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
+}
+.white-block-about .about-top-content .about-top-grid .about-top-blurb .far,
+.white-block-about .about-top-content .about-top-grid .about-top-blurb .fas {
+  font-size: 24px;
+  padding-bottom: 10px;
 }
 @media (max-width: 800px) {
   .white-block-about .about-top-content .about-top-grid .about-top-blurb {
@@ -705,9 +739,6 @@ header .navbar .navtab button {
 .lightGrey-block-about .about-bottom-content .about-tab a {
   text-decoration: none;
   color: #0d122b;
-}
-.lightGrey-block-about .about-bottom-content .about-tab .active-about {
-  border-bottom: 5px solid #5ae5dd;
 }
 @media (max-width: 800px) {
   .lightGrey-block-about .about-bottom-content .about-tab {
