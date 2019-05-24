@@ -1,8 +1,6 @@
 # build-stockly-MarketingUI-Reed
 
-Reed's marketing UI repo. We know great things occur here. Beautiful, UI-centric things.
-
-the stockly website features a predictive stock modeling service based on twitter sentiment.
+the Stockly Product features a predictive stock modeling service based on twitter sentiment.
 
 this repository has a marketing page and an about page
 the marketing page has the following:
