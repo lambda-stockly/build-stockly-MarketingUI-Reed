@@ -1,0 +1,35 @@
+//mixins
+
+.button(@background-color, @text-color) {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: @background-color;
+  color: @text-color;
+  font-size: 1.6rem;
+  box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2),
+    0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
+}
+
+.width() {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex(@justify) {
+  display: flex;
+  align-items: center;
+  justify-content: @justify;
+}
+
+.mobile() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

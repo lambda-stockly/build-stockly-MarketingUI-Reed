@@ -1,0 +1,78 @@
+//navbar
+
+header {
+  border-bottom: 1px solid @secondaryColor;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  .navbar {
+    .width();
+    padding-top: 20px;
+    .flex(space-between);
+    .logo-nav {
+      display: flex;
+      align-items: baseline;
+      @media @tablet {
+        .mobile();
+      }
+      @media @mobile {
+        .mobile();
+      }
+      span .logoLine {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+      }
+    }
+    // .hamburger {
+    //   display: none;
+    // }
+
+    .navtab {
+      display: flex;
+      align-items: center;
+      a {
+        padding-left: 3em;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: @secondaryColor;
+        @media @mobile {
+          width: 100%;
+          padding: 0;
+          padding-bottom: 5px;
+          padding-top: 5px;
+          border-top: 1px solid @secondaryColor;
+        }
+      }
+      button {
+        margin-left: 3em;
+        @media @mobile {
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      @media @mobile {
+        a {
+          width: 100%;
+        }
+      }
+    }
+    @media @tablet {
+      display: flex;
+      flex-direction: column;
+    }
+    @media @mobile {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .navtab {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

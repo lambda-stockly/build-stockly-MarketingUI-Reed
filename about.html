@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script defer="defer" src="components/about.js"></script>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="logo-nav">
+            <h2 class="logoLine">
+              <span class="sumNav">Σ</span>tock<span>ly</span
+              ><img src="img/helmet.svg" alt="" />
+            </h2>
+          </div>
+          <div class="navtab">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <!-- <a href="#">Our Approach</a> -->
+            <button
+              class="log-in"
+              onclick="window.location.href='https://stockly-fe.netlify.com';"
+            >
+              Log In
+            </button>
+            <button
+              class="sign-up"
+              onclick="window.location.href='https://stockly-fe.netlify.com';"
+            >
+              Sign Up
+            </button>
+          </div>
+        </nav>
+      </header>
+      <!-- end of header -->
+      <section class="white-block-about">
+        <div class="about-top-content">
+          <div class="about-top-text">
+            <h1>About Stockly</h1>
+            <p>
+              Founded in 2019, Stockly uses cutting edge technology to predict
+              the market so users can make reliable, informed decisions.
+            </p>
+          </div>
+          <div class="about-top-grid">
+            <div class="about-top-blurb about-top-blurb-1">
+              <span class="about-top-blurb-icon-1" src="" alt=""
+                ><i class="fas fa-chart-line"></i></i
+              ></span>
+              <h3>Buy Indicators</h3>
+              <p>Stockly can iform you when a stock will rise</p>
+            </div>
+            <div class="about-top-blurb about-top-blurb-2">
+              <span class="about-top-blurb-icon-1" src="" alt=""
+                ><i class="far fa-hand-paper"></i
+              ></span>
+              <h3>Hold Indicators</h3>
+              <p>
+                If a stock shows no signs of movement, Stockly will let you know
+              </p>
+            </div>
+            <div class="about-top-blurb about-top-blurb-3">
+              <span class="about-top-blurb-icon-1" src="" alt=""
+                ><i class="fas fa-thumbs-down"></i></span>
+              <h3>Sell Indicators</h3>
+              <p>
+                When the market mood has turned, Stockly will help you avoid
+                losses
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of about-top-content div-->
+      </section>
+      <!-- end of about-top-content section -->
+      <section class="blue-block-about">
+        <div class="about-middle-content">
+          <div class="about-middle-blurb about-middle-blurb-1">
+            <img class="about-middle-blurb-icon-1" src="img/suits.svg" alt="" />
+            <div>
+              <h3>Seasoned Team</h3>
+              <p>Stockly is staffed with talented developers</p>
+            </div>
+          </div>
+          <div class="about-middle-blurb about-middle-blurb-2">
+            <img
+              class="about-middle-blurb-icon-2"
+              src="img/geometric.svg"
+              alt=""
+            />
+            <div>
+              <h3>Advanced AI</h3>
+              <p>
+                Stockly's data science team has created a robust neural network
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of about-middle-content -->
+      </section>
+      <!-- end of about-middle-content section -->
+      <section class="lightGrey-block-about">
+        <div class="about-bottom-content">
+          <div class="about-bottom-text">
+            <h2>The Stockly Team</h2>
+            <p>
+              The Stockly team created stock summaries, charts, and thresholds
+              of action, all by using sentiment analysis off Twitter! They made
+              it possible to make informative decisions on actions you should
+              take based on a stock's price
+            </p>
+          </div>
+          <div class="about-tab">
+            <div class="feature-about active-about" data-tab="all">
+              The Team
+            </div>
+            <div class="feature-about" data-tab="Lead">Team Lead</div>
+            <div class="feature-about" data-tab="front">Front End</div>
+            <div class="feature-about" data-tab="back">Back End</div>
+            <div class="feature-about" data-tab="ui">Web UI</div>
+            <div class="feature-about" data-tab="ds">Data Science</div>
+            <div class="feature-about" data-tab="ios">IOS</div>
+            <!-- <div class="feature-about" data-tab="ux">UX</div> -->
+          </div>
+          <div class="about-bottom-grid">
+            <div
+              class="about-bottom-blurb about-bottom-blurb-1 active-about-blurb"
+              data-tab="Lead"
+            >
+              <img class="about-bottom-blurb-icon-1" src="img/kai.jpg" alt="" />
+              <h3>Kai Lovingfoss</h3>
+              <p>
+                Team Lead <br />
+                Kai ensured a smooth workflow for all components
+              </p>
+            </div>
+            <div
+              class="about-bottom-blurb about-bottom-blurb-2"
+              data-tab="front"
+            >
+              <img
+                class="about-bottom-blurb-icon-2"
+                src="img/Jonathan_Taylor.png"
+                alt=""
+              />
+              <h3>Jonathan Taylor</h3>
+              <p>
+                Front End <br />
+                created the interface with data science's output using react
+              </p>
+            </div>
+            <div
+              class="about-bottom-blurb about-bottom-blurb-3"
+              data-tab="front"
+            >
+              <img
+                class="about-bottom-blurb-icon-3"
+                src="img/Ruben_Ponce.png"
+                alt=""
+              />
+              <h3>Ruben Ponce</h3>
+              <p>
+                Front End <br />
+                created the interface of data science's output using react
+              </p>
+            </div>
+            <div
+              class="about-bottom-blurb about-bottom-blurb-4"
+              data-tab="back"
+            >
+              <img
+                class="about-bottom-blurb-icon-4"
+                src="img/William_Connatser.png"
+                alt=""
+              />
+              <h3>William Connatser</h3>
+              <p>
+                Back End <br />
+                Ensured all software meshed together smoothly
+              </p>
+            </div>
+            <div class="about-bottom-blurb about-bottom-blurb-5" data-tab="ui">
+              <img
+                class="about-bottom-blurb-icon-5"
+                src="img/Isaac_aderogba.png"
+                alt=""
+              />
+              <h3>Isaac Aderogba</h3>
+              <p>
+                User Interface and UX <br />Developed a marketing page and an
+                about page. Isaac also did the UX
+              </p>
+            </div>
+            <div class="about-bottom-blurb about-bottom-blurb-6" data-tab="ui">
+              <img
+                class="about-bottom-blurb-icon-6"
+                src="img/Screen Shot 2019-05-21 at 2.34.27 PM.png"
+                alt=""
+              />
+              <h3>Will VanOrder</h3>
+              <p>
+                User Interface <br />Developed a marketing page and an about
+                page.
+              </p>
+            </div>
+            <div class="about-bottom-blurb about-bottom-blurb-7" data-tab="ui">
+              <img
+                class="about-bottom-blurb-icon-7"
+                src="img/Reed_James.png"
+                alt=""
+              />
+              <h3>Reed James</h3>
+              <p>
+                User Interface Developed a marketing page and an about page.
+              </p>
+            </div>
+            <div class="about-bottom-blurb about-bottom-blurb-8" data-tab="ds">
+              <img
+                class="about-bottom-blurb-icon-8"
+                src="img/Chris_louie.png"
+                alt=""
+              />
+              <h3>Chris Louie</h3>
+              <p>
+                Data Science <br />Took Twitter sentiment analysis to create a
+                predictive model
+              </p>
+            </div>
+            <div class="about-bottom-blurb about-bottom-blurb-9" data-tab="ds">
+              <img
+                class="about-bottom-blurb-icon-9"
+                src="img/Derek_shing.png"
+                alt=""
+              />
+              <h3>Derek Shing</h3>
+              <p>
+                Data Science <br />Took Twitter sentiment analysis to create a
+                predictive model
+              </p>
+            </div>
+            <div
+              class="about-bottom-blurb about-bottom-blurb-10"
+              data-tab="ios"
+            >
+              <img
+                class="about-bottom-blurb-icon-10"
+                src="img/Screen Shot 2019-05-21 at 2.43.38 PM.png"
+                alt=""
+              />
+              <h3>Victor Ruiz</h3>
+              <p>IOS <br />Developed a mobile version for iPhone users</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of about-bottom-content -->
+      </section>
+      <!-- end of about-bottom-content section -->
+      <footer class="footer">
+        <div class="cyan-block">
+          <div class="footer-top">
+            <div>
+              <h2>Sign Up Today</h2>
+              <p>Do not miss out on the opportunity to win!</p>
+            </div>
+            <div class="bottom-button">
+              <button
+                class="log-in"
+                onclick="window.location.href='https://stockly-fe.netlify.com';"
+              >
+                Log In
+              </button>
+              <button
+                class="sign-up"
+                onclick="window.location.href='https://stockly-fe.netlify.com';"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bottomNavy-block">
+          <div class="footer-bottom">
+            <h2>
+              <span class="sumNav">Σ</span>tock<span>ly</span
+              ><img src="img/helmetWhite.svg" alt="" />
+            </h2>
+            <div class="bottom-link">
+              <ul>
+                <h3>Stocky Products</h3>
+                <li><a href=""></a>predictive modeling</li>
+                <li><a href=""></a>stock performance</li>
+                <li><a href=""></a>smart watchlist</li>
+              </ul>
+              <ul>
+                <h3>About Us</h3>
+                <li><a href=""></a>Team</li>
+                <li><a href=""></a>Our Story</li>
+                <li><a href=""></a>careers</li>
+              </ul>
+              <ul>
+                <h3>Contact</h3>
+                <li><a href=""></a>email</li>
+                <li><a href=""></a>address</li>
+                <li><a href=""></a>phone</li>
+              </ul>
+              <ul>
+                <h3>News</h3>
+                <li><a href=""></a>latest news</li>
+                <li><a href=""></a>blog</li>
+                <li><a href=""></a>stock news</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end of footer -->
+    </div>
+    <!-- end of container div -->
+  </body>
+</html>
